@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Averageh
   title: h
-  author: AnAverageArceus
+  author: AR-C
   description: h
   version: 1.0
-  outputFolder: nd Nobody Explodes\modsSteam\steamapps\common\Keep Talking and Nobody
+  outputFolder: C:\Program Files (x86)\Steam\steamapps\common\Keep Talking and Nobody
     Explodes\mods
   previewImage: {fileID: 2800000, guid: 2d5a6a26b96dcca4fb9e9e97c9dcb0d6, type: 3}

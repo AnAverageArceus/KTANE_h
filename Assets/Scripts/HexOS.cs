@@ -45,13 +45,9 @@ public class HexOS : MonoBehaviour
         Button.OnInteractEnded += delegate ()
         {
             HandleRelease();
-        };
+		};
+		_moduleId = _moduleIdCounter++;
         Debug.LogFormat("[h #{0}] Submit {1} to solve the module.", _moduleId, MorseCode[WhatToSubmit]);
-    }
-
-    private void Start()
-    {
-        _moduleId = _moduleIdCounter++;
     }
     
     private void HandlePress()
